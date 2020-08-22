@@ -15,6 +15,8 @@ class String
   end
 
   def count_sentences
-      self.split.length
+      nuarray = self.split
+      
+      .length
   end
 end
