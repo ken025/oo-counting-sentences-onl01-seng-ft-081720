@@ -17,6 +17,6 @@ class String
   def count_sentences
       nuarray = self.split
       nuarray.delete_if{|sentence| sentence.empty?}
-      sentence.length
+      nuarray.length
   end
 end
